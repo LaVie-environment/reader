@@ -8,7 +8,7 @@ class CatCommand:
         for file_path in file_paths:
             try:
                 with open(file_path, 'r') as file:
-                    content = file.read()
+                    content = file.readlines()
                     print(f"Content of {file_path}:\n{content}")
             except FileNotFoundError:
                 print(f"Error: File '{file_path}' not found.")
