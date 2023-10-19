@@ -23,4 +23,4 @@ if __name__ == "__main__":
         files_to_cat = sys.argv[1:]
         cat_command.cat_files(files_to_cat)
     else:
-        print("Usage: python cat_command.py [file1] [file2] ...")
+        print("Usage: python tac.py [file1] [file2] ...")
